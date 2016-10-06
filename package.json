@@ -1,6 +1,6 @@
 {
   "name": "tmp-dir",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create unique tempdir directories.",
   "main": "index.js",
   "scripts": {
