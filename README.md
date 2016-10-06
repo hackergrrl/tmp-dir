@@ -11,7 +11,9 @@ location for a throw-away directory!
 ```js
 var tmp = require('tmp-dir')
 
-tmp(function (dir, cleanup) {
+tmp(function (err, dir, cleanup) {
+  if (err) return cleanup()
+
   // write a single file
   fs.writeFileSync(path.join(dir, 'foo'), 'hello warld!')
 
