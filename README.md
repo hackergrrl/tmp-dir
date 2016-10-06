@@ -2,6 +2,16 @@
 
 > Create unique tempdir directories.
 
+---
+
+*You're probably looking for [node-tmp](https://github.com/raszi/node-tmp).*
+
+I wrote this module while offline and wasn't sure if anything like it existed.
+Turns out it did, and with *tests*! So you really ought to use
+[node-tmp](https://github.com/raszi/node-tmp) instead!
+
+---
+
 Use `os.tmpdir()` plus a GUID to create temporary directories in a
 *laissez-faire* manner. Never worry about deducing your own unique name and
 location for a throw-away directory!
