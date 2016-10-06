@@ -1,0 +1,25 @@
+{
+  "name": "tmp-dir",
+  "version": "0.0.0",
+  "description": "Create unique tempdir directories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard *.js examples/* && tape test/*"
+  },
+  "keywords": [
+    "tmp",
+    "temp",
+    "dir"
+  ],
+  "author": "Stephen Whitmore <stephen.whitmore@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "guid": "0.0.12",
+    "mkdirp": "^0.5.1",
+  },
+  "devDependencies": {
+    "standard": "^8.3.0",
+    "tape": "^4.6.2"
+  }
+}
